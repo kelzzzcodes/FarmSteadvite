@@ -3,7 +3,7 @@ import { Footer, Navbar } from '../components'
 
 const RootLayout = () => {
   return (
-    <div className="h-screen bg-yellow-100 ">
+    <div className="h-screen bg-white ">
       <Navbar />
       <Outlet />
       <Footer />
