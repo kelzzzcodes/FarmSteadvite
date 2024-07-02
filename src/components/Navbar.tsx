@@ -1,7 +1,7 @@
 import { navbarLinks } from '../constants'
 import { Link, useLocation } from 'react-router-dom'
 import vector from '../assets/Vector.png'
-import Button from './ui/Button'
+import { Button } from './ui'
 const Navbar = () => {
   const location = useLocation()
 
