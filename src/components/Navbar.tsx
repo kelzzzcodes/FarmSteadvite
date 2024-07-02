@@ -20,9 +20,9 @@ const Navbar = () => {
               to={item.route}
               className={`${
                 isActive
-                  ? 'border-black border-b-2 text-[#228B22]  '
-                  : ' text-[#36454F] '
-              } pb-1`}
+                  ? 'border-black  text-[#228B22]  '
+                  : ' text-[#36454F] border-transparent '
+              } pb-1 border-b-2 `}
             >
               {item.label}
             </Link>
