@@ -5,7 +5,6 @@ import Button from './ui/Button'
 import { useState } from 'react'
 const Navbar = () => {
   const location = useLocation()
-  const [hamburgerStatus, sethamburgerStatus] = useState(true)
 
   return (
     <nav className="w-full h-[120px] flex justify-between items-center py-10 px-4 sm:px-8 lg:px-16 border-b-2 border-green-600">
@@ -53,7 +52,7 @@ const Navbar = () => {
           </Button>
         </div>
       </div>
-      {hamburgerStatus && <p>Hamburger Menu</p>}
+      <p>Hamburger Menu</p>
     </nav>
   )
 }
