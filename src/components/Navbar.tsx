@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full h-[120px] flex justify-between items-center py-10 px-4 sm:px-8 lg:px-16 border-b-2 border-green-600">
-      <Link to="/" className="text-[#228B22] text-2xl">
+      <Link to="/" className="text-[#228B22] text-2xl font-Merriweather">
         FarmStead
       </Link>
 
