@@ -6,12 +6,12 @@ const Navbar = () => {
   const location = useLocation()
 
   return (
-    <nav className="w-full h-[120px] flex justify-between items-center py-10 px-4 sm:px-8 lg:px-16 border-b-2 border-green-600">
+    <nav className="w-full h-[120px] flex justify-between items-center py-10 px-4 sm:px-8 border-b-2 border-green-600">
       <Link to="/" className="text-[#228B22] text-2xl font-Merriweather">
         FarmStead
       </Link>
 
-      <div className=" hidden lg:flex   gap-10 items-center ">
+      <div className=" hidden lg:flex gap-10 items-center ">
         {navbarLinks.map((item) => {
           const isActive = location.pathname === item.route
           return (
@@ -20,7 +20,7 @@ const Navbar = () => {
               to={item.route}
               className={`${
                 isActive
-                  ? 'border-black  text-[#228B22]  '
+                  ? 'border-[#228B22]  text-[#228B22]  '
                   : ' text-[#36454F] border-transparent '
               } pb-1 border-b-2 `}
             >
@@ -45,13 +45,13 @@ const Navbar = () => {
           <Button
             href="/signup"
             className="text-[#228B22] bg-[#228B22] px-6 py-2 rounded-lg"
-            spanClassName="text-white "
+            spanClassName=" bg-transparent text-white "
           >
             Sign Up
           </Button>
         </div>
       </div>
-      <p>Hamburger Menu</p>
+        {/* <p>Hamburger Menu</p> */}
     </nav>
   )
 }
