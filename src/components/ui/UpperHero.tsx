@@ -4,10 +4,10 @@ import Button from './Button'
 import Search from '../../assets/Search.svg'
 const UpperHero = () => {
   return (
-    <section className="flex mb-2">
-      <div className=" flex flex-col gap-4 pt-10 xl:pt-24 xl:w-[40%] flex-1 sm:text-center sm:items-center xl:items-start xl:text-left">
+    <section className="flex mt-8">
+      <div className="flex flex-col gap-4 flex-1 sm:text-center sm:items-center xl:items-start xl:text-left">
         <h2 className="text-[40px] leading-[60.56px] xl:text-[80px] xl:leading-[100.56px] font-Merriweather">
-          Fresh from our <br /> Farm to Your{' '}
+          Fresh from our <br/> Farm to Your{' '}
           <span className="text-[#228B22]">Table</span>
         </h2>
         <p className="text-[24px] w-[90%] text-[#8A8A8A] leading-[40px]">
@@ -40,7 +40,7 @@ const UpperHero = () => {
         </ul>
       </div>
       <div className="hidden xl:flex xl:flex-1 items-center justify-center">
-        <div className="w-[720px] flex items-center justify-center mt-2">
+        <div className="w-[720px] flex items-center justify-center">
           <img src={landing} className="max-w-full h-auto object-contain" />
         </div>
       </div>

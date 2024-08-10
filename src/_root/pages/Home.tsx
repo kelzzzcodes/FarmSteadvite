@@ -2,7 +2,7 @@ import { FeaturedProducts, Hero } from '../../components'
 
 const Home = () => {
   return (
-    <div>
+    <div className='flex flex-col'>
       <Hero />
       <FeaturedProducts />
     </div>

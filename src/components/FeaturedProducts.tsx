@@ -1,6 +1,6 @@
 
 const FeaturedProducts = () => {
-  return <div>FeaturedProducts</div>
+  return <div className="">FeaturedProducts</div>
 }
 
 export default FeaturedProducts
