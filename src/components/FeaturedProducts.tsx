@@ -1,3 +1,4 @@
+import { FeaturedProductData } from '../constants'
 import { Button } from './ui'
 import FeaturedProductCard from './ui/FeaturedProductCard'
 
@@ -10,8 +11,15 @@ const FeaturedProducts = () => {
       >
         Featured Products
       </h2>
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 mx-auto w-full">
+  {
+    FeaturedProductData.map((item,index) => (
+      <FeaturedProductCard  key={index} image={item.image} oldPrice={item.oldPrice} newPrice={item.newPrice} name={item.name}/>
+    ))
+  }
 
-      <FeaturedProductCard />
+</div>
+
 
       <div className="flex mx-auto">
         <Button

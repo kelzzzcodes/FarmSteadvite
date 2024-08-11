@@ -3,7 +3,7 @@ import HeroCard from './HeroCard'
 
 const BottomHero = () => {
   return (
-        <section className="h-auto bg-white rounded-md p-4 flex items-center sm:justify-center flex-wrap gap-4 max-w-[96%] mx-auto ">
+        <section className="h-auto bg-white shadow-custom-combined rounded-md p-4 flex items-center sm:justify-center flex-wrap gap-4 max-w-[96%] mx-auto w-full">
       {/* <div className='flex flex-wrap bg-transparent mx-auto items-center justify-center '>
           {HomeCardData.map((item, index) => (
           <HeroCard
