@@ -3,9 +3,9 @@ import { Footer, Navbar } from '../components'
 
 const RootLayout = () => {
   return (
-    <div className="h-screen bg-white flex flex-col ">
+    <div className="h-screen flex flex-col ">
       <Navbar />
-      <Outlet />
+      <Outlet  />
       <Footer />
     </div>
   )
