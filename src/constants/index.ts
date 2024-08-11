@@ -94,17 +94,12 @@ export const FeaturedProductData = [
     name: 'Africa Spinach Per bundle',
   },
   {
-    image: `${Potato}`,
-    oldPrice: 5300.0,
-    newPrice: 1500,
-    name: 'Fresh Potatoes Per KG',
-  },
-  {
     image: `${Plantain}`,
     oldPrice: 3000.0,
     newPrice: 1500,
     name: 'Plantain 5 pieces',
   },
+
   {
     image: `${Beef}`,
     oldPrice: 3000.0,
@@ -122,5 +117,35 @@ export const FeaturedProductData = [
     oldPrice: 200.0,
     newPrice: 50,
     name: 'Africa Spinach Per bundle',
+  },
+  {
+    image: `${Potato}`,
+    oldPrice: 5300.0,
+    newPrice: 1500,
+    name: 'Fresh Potatoes Per KG',
+  },
+  {
+    image: `${Ginger}`,
+    oldPrice: 3300.0,
+    newPrice: 1500,
+    name: 'Fresh Ginger',
+  },
+  {
+    image: `${Spinach}`,
+    oldPrice: 200.0,
+    newPrice: 50,
+    name: 'Africa Spinach Per bundle',
+  },
+   {
+    image: `${Potato}`,
+    oldPrice: 5300.0,
+    newPrice: 1500,
+    name: 'Fresh Potatoes Per KG',
+  },
+   {
+    image: `${Beef}`,
+    oldPrice: 3000.0,
+    newPrice: 1500,
+    name: 'Fresh Beef per KG',
   },
 ]
